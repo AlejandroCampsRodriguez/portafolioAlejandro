@@ -1,0 +1,17 @@
+
+
+.contenedor_padre_proyectos{
+  margin:0;
+  padding:0;
+}
+
+.contenedor_padre_proyectos{
+  background-color: rgb(232, 189, 173);
+  width:100%;
+  height: auto;
+}
+
+.texto_proyectos{
+  color: black;
+  font-size: 28px;
+}
