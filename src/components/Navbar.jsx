@@ -1,5 +1,5 @@
 
-import '../styles/estilos.scss'
+
 
 function NavBar(){
   return(

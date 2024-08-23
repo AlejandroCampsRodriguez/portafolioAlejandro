@@ -1,7 +1,22 @@
 
+.container-fluid{
+  margin:0;
+  padding: 0;
+}
+
+.titulo{
+  margin:10px;
+}
+
+
+.texto{
+  margin:10px;
+}
+
 
 /*imagen */
 .imagen{
  margin:10px 0;
   border-radius: 20%;
 }
+

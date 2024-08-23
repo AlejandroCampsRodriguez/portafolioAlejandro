@@ -11,7 +11,35 @@
   height: auto;
 }
 
-.texto_proyectos{
+.titulo_proyectos{
   color: black;
   font-size: 28px;
 }
+
+/*proyecto 1*/
+.link-conociendo-saber{
+  color:black;
+  text-decoration: none;
+  
+}
+ 
+.scss-logo,
+.css-logo,
+.bootstrap-logo,
+.react-logo{
+  width:16px;
+  height: 16px;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+/*imagenes en construccion*/
+.img-const{
+  margin-top:15px;
+}
+

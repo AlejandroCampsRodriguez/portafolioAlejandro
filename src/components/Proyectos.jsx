@@ -1,6 +1,13 @@
 
 import img_proyecto1 from '../img/01_4.jpg';
 import img_const from '../img/01_5.png';
+import react from '../assets/react.svg';
+import bootstrap from '../assets/bootstrap.svg';
+import css from '../assets/css.svg';
+import scss from '../assets/scss.svg';
+
+
+
 import  '../styles/Aprendiendo.css'
 
 function Proyectos (){
@@ -12,7 +19,7 @@ function Proyectos (){
     <div className="contenedor_master_proyectos">  
        <div className="col-12 contenedor_padre_proyectos">   
 
-           <div className= 'text-center texto_proyectos'>Proyectos</div>
+           <div className= 'text-center titulo_proyectos'>Proyectos</div>
               
        </div>
     </div> 
@@ -37,20 +44,20 @@ function Proyectos (){
   {/*Proyecto 1 */}
   <div className="col-12 col-md-6 col-lg-4">
 
-    <div className="proyecto">
-      <img className='img-fluid' alt='proyect-1' src={img_proyecto1}></img>
-      <div className="over-lay">
-        <p>Conociendo el saber</p>
-        <div className="iconos-contenedor">
-<div className='iconos-contenedor '>
-  <a href='https://github.com/' target='_blank' rel='noopener noreferrer'>
-  <i className='bi bi-github'></i>
-  </a>
-  <a href='https://www.freecodecamp.org/ 'target='_blank' rel='noopener noreferrer'>
-  <i className="bi bi-laptop"></i>
-  </a>
-</div>
-        </div>
+    <div className="proyecto ">
+      <img className='img-fluid img-conociendo-saber' alt='proyect-1' src={img_proyecto1}/>
+         <div className="over-lay ">
+        <a className='link-conociendo-saber' href="https://alejandro657.github.io/S_Educativo/" target="_blank" rel="noopener noreferrer">
+          <div className='conociendo-el-saber'>Conociendo el saber</div>
+        </a>
+
+    <div className='iconos-contenedor '>  
+  <img className='react-logo' alt='react' src={react}/>  
+  <img className='bootstrap-logo' alt='bootstrap' src={bootstrap}/> 
+  <img className='css-logo' alt='css' src={css}/>   
+  <img className='scss-logo' alt='scss' src={scss}/> 
+
+      </div>
 
       </div>
     </div>
@@ -58,18 +65,18 @@ function Proyectos (){
   </div>
 
 {/*proyecto 2 */}
- <div className="col-12 col-md-6 col-lg-4">
+ <div className='col-12 col-md-6 col-lg-4'>
     <div className="proyecto">
-      <img className='img-fluid' alt='proyect-1' src={img_const }></img>
+      <img className='img-fluid img-const' alt='proyect-1' src={img_const }></img>
       <div className="over-lay">
-        <p>proyecto1</p>
+        <p>proyecto</p>
         <div className="iconos-contenedor">
 <div className='iconos-contenedor '>
   <a href='https://github.com/' target='_blank' rel='noopener noreferrer'>
-  <i className='bi bi-github'></i>
+  
   </a>
   <a href='https://www.freecodecamp.org/ 'target='_blank' rel='noopener noreferrer'>
-  <i className="bi bi-laptop"></i>
+ 
   </a>
 </div>
         </div>
@@ -82,16 +89,16 @@ function Proyectos (){
 {/*proyecto 3*/}
    <div className="col-12 col-md-6 col-lg-4">
     <div className="proyecto">
-      <img alt='proyect-1' src={img_const }></img>
+      <img className='img-fluid img-const' alt='proyect-1' src={img_const }></img>
       <div className="over-lay">
-        <p>proyecto1</p>
+        <p>proyecto</p>
         <div className="iconos-contenedor">
 <div className='iconos-contenedor '>
   <a href='https://github.com/' target='_blank' rel='noopener noreferrer'>
-  <i className='bi bi-github'></i>
+ 
   </a>
   <a href='https://www.freecodecamp.org/ 'target='_blank' rel='noopener noreferrer'>
-  <i className="bi bi-laptop"></i>
+ 
   </a>
 </div>
         </div>
@@ -104,16 +111,16 @@ function Proyectos (){
 {/*proyecto 4 */}
   <div className="col-12 col-md-6 col-lg-4">
     <div className="proyecto">
-      <img alt='proyect-1' src={img_const }></img>
+      <img className='img-fluid img-const' alt='proyect-1' src={img_const }></img>
       <div className="over-lay">
-        <p>proyecto1</p>
+        <p>proyecto</p>
         <div className="iconos-contenedor">
 <div className='iconos-contenedor '>
   <a href='https://github.com/' target='_blank' rel='noopener noreferrer'>
-  <i className='bi bi-github'></i>
+
   </a>
   <a href='https://www.freecodecamp.org/ 'target='_blank' rel='noopener noreferrer'>
-  <i className="bi bi-laptop"></i>
+ {/*aqui va el icono de bootstrap */}
   </a>
 </div>
         </div>
@@ -126,16 +133,16 @@ function Proyectos (){
 {/*proyecto 5 */}
   <div className="col-12 col-md-6 col-lg-4">
     <div className="proyecto">
-      <img alt='proyect-1' src={img_const }></img>
+      <img className='img-fluid img-const'  alt='proyect-1' src={img_const }></img>
       <div className="over-lay">
-        <p>proyecto1</p>
+        <p>proyecto</p>
         <div className="iconos-contenedor">
 <div className='iconos-contenedor '>
   <a href='https://github.com/' target='_blank' rel='noopener noreferrer'>
-  <i className='bi bi-github'></i>
+
   </a>
   <a href='https://www.freecodecamp.org/ 'target='_blank' rel='noopener noreferrer'>
-  <i className="bi bi-laptop"></i>
+
   </a>
 </div>
         </div>
@@ -148,16 +155,16 @@ function Proyectos (){
   {/*proyecto 6 */}
   <div className="col-12 col-md-6 col-lg-4">
     <div className="proyecto">
-      <img alt='proyect-1' src={img_const }></img>
+      <img className='img-fluid img-const' alt='proyect-1' src={img_const }></img>
       <div className="over-lay">
-        <p>proyecto1</p>
+        <p>proyecto</p>
         <div className="iconos-contenedor">
 <div className='iconos-contenedor '>
   <a href='https://github.com/' target='_blank' rel='noopener noreferrer'>
-  <i className='bi bi-github'></i>
+ 
   </a>
   <a href='https://www.freecodecamp.org/ 'target='_blank' rel='noopener noreferrer'>
-  <i className="bi bi-laptop"></i>
+ 
   </a>
 </div>
         </div>
