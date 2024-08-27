@@ -1,5 +1,5 @@
 
-import img_proyecto1 from '../img/01_4.jpg';
+import img_proyecto1 from '../img/01_4.png';
 import img_const from '../img/01_5.png';
 import react from '../assets/react.svg';
 import bootstrap from '../assets/bootstrap.svg';
@@ -19,7 +19,7 @@ function Proyectos (){
     <div className="contenedor_master_proyectos">  
        <div className="col-12 contenedor_padre_proyectos">   
 
-           <div className= 'text-center titulo_proyectos'>Proyectos</div>
+           <div id='proyectos' className= 'text-center titulo_proyectos'>Proyectos</div>
               
        </div>
     </div> 

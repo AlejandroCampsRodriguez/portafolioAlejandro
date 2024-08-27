@@ -30,8 +30,8 @@ function Titulo() {
 
           <div className="col-12 col-md-6">
             <div className="master_imagen">
-              <div className="padre imagen">  
-                <img className='img-fluid imagen' src={imagen01_1} alt='imagenpc'/>
+              <div className="padre-imagen">  
+                <img className='img-fluid imagen-portada' src={imagen01_1} alt='imagenpc'/>
               </div>
             </div>
           </div>

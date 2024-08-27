@@ -5,17 +5,20 @@
 }
 
 .titulo{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin:10px;
 }
 
 
 .texto{
+  font-family: Arial, Helvetica, sans-serif;
   margin:10px;
 }
 
 
 /*imagen */
-.imagen{
+.imagen-portada{
+  width:150rem;
  margin:10px 0;
   border-radius: 20%;
 }

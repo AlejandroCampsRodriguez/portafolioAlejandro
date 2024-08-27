@@ -33,7 +33,7 @@ function Footer(){
 </div>
 <footer className='seccion-oscura d-flex flex-column alig-items-center justify-content-center'>
 
-<img className='footer-icono' src='../src/imagenes/icono-blanco.svg' alt='icono'/>
+
 
 <p className='footer-texto text-center'>Aprendo y creo todos los dias<br/>creemos un proyecto juntos</p>
 

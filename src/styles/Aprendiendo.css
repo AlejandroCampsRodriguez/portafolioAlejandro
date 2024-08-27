@@ -1,22 +1,98 @@
-.container-fluid{
-  padding:0 !important;
-  margin:0 !important;
+
+
+
+/*contenedores de En curso*/
+
+
+.prueba{
+  margin:10px;
+  width:70%;
+  background-color: rgb(190, 190, 231);
+}
+
+/* seccion curso - barras progresivas*/
+.master-enCurso{
+  background-color: aliceblue;
 }
 
 
-/*tituo: aprendiendo*/
-h3{
-  margin:0;
-  padding: 0;
-  background-color: rgb(202, 225, 225);
+
+
+.html{
+  border:1px solid black;
+  background-color: rgb(90, 249, 124);
+  width:90%;
+}
+
+
+.js{
+  border:1px solid black;
+  background-color: rgb(90, 249, 124);
+  width:65%;
+}
+
+.css{
+  border:1px solid black;
+  background-color: rgb(90, 249, 124);
+  width:80%;
+}
+
+.boot-text{
+  border:1px solid black;
+  background-color: rgb(90, 249, 124);
+  width:80%;
+}
+
+
+
+.curso-titulo{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 3px;
+  background-color: rgb(232, 189, 173);
+}
+
+
+.aprendiendo-titulo{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*imagenes seccion aprendiendo*/
+
+.padre-aprendiendo{
+  width:98%;
+  background-color: rgb(232, 189, 173);
+}
+
+.imagenes-master{
+  width:100%;
+  height: 36.5rem;
+  background-color: aliceblue;
+}
+
+.imagenes-padre{
+  width:60%;
+}
+
+/*logotipo python y mysql*/
+.imagen{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
 }
 
 
 
 
-.cajas{
-  margin-top:5px;
+@media
+(width >= 0px) and 
+(width <= 500px){
+  
+ /*fondo de aprendiendo*/
+.imagenes-master{
+  width:100%;
+  height: 20.5rem;
+  background-color: aliceblue;
 }
 
-
-
+}

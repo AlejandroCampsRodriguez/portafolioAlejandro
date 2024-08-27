@@ -17,9 +17,9 @@ function App() {
 
 <Titulo/>
 
-<Aprendiendo/>
-
 <Proyectos/>
+
+<Aprendiendo/>
 
 <Footer/>
 
