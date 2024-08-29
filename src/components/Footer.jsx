@@ -39,19 +39,17 @@ function Footer(){
 
 <div className='iconos-redes-sociales d-flex flex-wrap alig-items-center justify-content-center'>
 
-<a href='https://twitter.com/freecodecampEs' target='_blank' rel = 'noopnener noreferrer'>
-<i className="bi bi-twitter-x"></i>
-</a>
 
-<a href='https://github.com/freecodecamp/freecodecamp' target='_blank' rel = 'noopnener noreferrer'>
+
+<a href='https://github.com/alejandro657' target='_blank' rel = 'noopnener noreferrer'>
 <i className="bi bi-github"></i>
 </a>
 
-<a href='mailto:alexcrw42@gmail.com' target='_blank' rel = 'noopnener noreferrer'>
+<a href='https://www.linkedin.com/in/alejandro-camps-a26a32145' target='_blank' rel = 'noopnener noreferrer'>
 <i className="bi bi-linkedin"></i>
 </a>
 
-<a href='https://twitter.com/freecodecampEs' target='_blank' rel = 'noopnener noreferrer'>
+<a href='mailto:alexcrw42@gmail.com' target='_blank' rel = 'noopnener noreferrer'>
 <i className="bi bi-envelope"></i>
 </a>
 

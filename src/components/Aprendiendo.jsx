@@ -45,7 +45,7 @@ function Aprendiendo() {
                     <img src={css} alt='HTML' />
                     <div className="prueba d-flex ">
                     <div className="css text-center">                    
-                      80%
+                      70%
                      </div>
                     </div>
                   </div>
@@ -57,7 +57,7 @@ function Aprendiendo() {
                     <img className= 'boot' src={boot} alt='HTML' />
                     <div className="prueba d-flex ">
                     <div className="boot-text text-center ">                    
-                      65%
+                      80%
                      </div>
                     </div>
                   </div>
@@ -69,8 +69,10 @@ function Aprendiendo() {
 
           <div className="col-md-6">
             <div className="master-aprendiendo d-flex justify-content-center ">
-              <div className="padre-aprendiendo ">
-                <h2 className='aprendiendo-titulo text-center'>Aprendiendo</h2>
+
+            <div className="padre-enCurso">
+            <h2 id ='otros' className='aprendiendo-titulo text-center'>Aprendiendo</h2>
+
                 <div className="imagenes-master d-flex justify-content-center  ">
                   <div className="imagenes-padre d-flex justify-content-spacearound  justify-items-center align-content-center flex-wrap justify-content-center">
                 <img className='img-fluid imagen' src={imagen_python} alt='Python' />

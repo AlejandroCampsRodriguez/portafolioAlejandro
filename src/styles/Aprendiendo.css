@@ -3,6 +3,10 @@
 
 /*contenedores de En curso*/
 
+.padre-enCurso{
+  width:100%;
+  height: 100%;;
+}
 
 .prueba{
   margin:10px;
@@ -14,6 +18,7 @@
 .master-enCurso{
   background-color: aliceblue;
 }
+
 
 
 
@@ -34,7 +39,7 @@
 .css{
   border:1px solid black;
   background-color: rgb(90, 249, 124);
-  width:80%;
+  width:70%;
 }
 
 .boot-text{
@@ -46,21 +51,20 @@
 
 
 .curso-titulo{
+  width:100%;
   font-family:Georgia, 'Times New Roman', Times, serif;
   padding: 3px;
   background-color: rgb(232, 189, 173);
 }
 
 
-.aprendiendo-titulo{
-  font-family:Georgia, 'Times New Roman', Times, serif;
-}
 
 
-/*imagenes seccion aprendiendo*/
+
+/*imagenes y titulo seccion aprendiendo*/
 
 .padre-aprendiendo{
-  width:98%;
+
   background-color: rgb(232, 189, 173);
 }
 
@@ -71,7 +75,7 @@
 }
 
 .imagenes-padre{
-  width:60%;
+   width:80%;
 }
 
 /*logotipo python y mysql*/
@@ -82,6 +86,14 @@
 }
 
 
+
+
+
+.aprendiendo-titulo{  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 3px;
+  background-color: rgb(232, 189, 173);
+}
 
 
 @media
